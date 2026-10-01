@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #1c1917;
+  --color-brand-red: #991b1b;
+  --color-brand-navy: #1c1917;
+  --color-brand-gold: #fbbf24;
+  --color-brand-gold-dark: #d97706;
+  --color-brand-green: #16a34a;
+  --color-brand-teal: #f59e0b;
+  --color-brand-teal-dark: #d97706;
+  --color-brand-teal-light: #fef2f2;
+}
+
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-x {
+  animation: scroll-x 25s linear infinite;
+}
+
+.animate-scroll-x:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-x-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-x-reverse {
+  animation: scroll-x-reverse 26s linear infinite;
+}
+
+.animate-scroll-x-reverse:hover {
+  animation-play-state: paused;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+

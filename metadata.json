@@ -1,0 +1,8 @@
+{
+  "name": "+35 Topos de Bolo Natalinos Premium",
+  "description": "Coleção especial de Natal com +35 modelos de topos de bolo natalinos organizados em 5 coleções com artes digitais prontas para imprimir e montar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
